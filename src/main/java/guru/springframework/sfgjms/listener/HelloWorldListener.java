@@ -24,5 +24,6 @@ public class HelloWorldListener {
                        Message message) {
         log.info("I got a message!!!");
         log.info(helloWorldMessage.toString());
+//        throw new RuntimeException("foo");
     }
 }
